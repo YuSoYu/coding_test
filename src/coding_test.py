@@ -1,7 +1,16 @@
+# 입력한 숫자 만큽 입력하는 기능 
+
 n = int(input())
 
-#numbers = list(map(int, input().split))
+number_count = n
 
-print(n)
+number_list = []
 
-#print(numbers)
+while(number_count > 0):
+
+    number_list.append(int(input()))
+    number_count = number_count - 1
+
+print(number_list)
+
+
