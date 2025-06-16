@@ -19,7 +19,7 @@ if len(number_list) == n:
         #print(f"현재 최소값은 {min} 현재 최대값은 {max}")
 
 
-print(min, max)
+    print(min, max)
 
 
     
